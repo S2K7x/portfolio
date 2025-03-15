@@ -178,7 +178,7 @@ export const DATA = {
         {
           type: "Discord",
           href: "https://discord.gg/BhCawHjR4W",
-          icon: "Icons.globe",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
