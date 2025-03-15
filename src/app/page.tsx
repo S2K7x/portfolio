@@ -43,7 +43,7 @@ export default function Page() {
 
       <section id="downloadCV" className="flex justify-center">
         <BlurFade delay={BLUR_FADE_DELAY * 2}>
-          <a href="/RAPHAELZERBIB.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/Shai_Krief2025.pdf" target="_blank" rel="noopener noreferrer">
             <Button className="flex gap-2 items-center px-6 py-6">
               <Download className="size-5" />
               <span>Download My Resume</span>
