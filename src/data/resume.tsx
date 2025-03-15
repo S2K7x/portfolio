@@ -65,7 +65,7 @@ export const DATA = {
       Discord: {
         name: "Discord Server",
         url: "https://discord.gg/GHMYGZz5",
-        icon: "Icons.globe",
+        icon: Icons.globe,
         navbar: true,
       },
       TryHackMe: {
