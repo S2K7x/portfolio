@@ -8,9 +8,9 @@ export const DATA = {
   location: "Tel Aviv, Israel",
   locationLink: "https://www.google.com/maps/place/TelAviv",
   description:
-    "Cybersecurity Specialist, IT Support Professional & Content Creator. Passionate about security, problem-solving, and sharing knowledge through educational videos.",
+    "Cybersecurity Specialist, IT Support Professional & Content Creator. Passionate about security, problem-solving, and building a community through educational videos and Discord.",
   summary:
-    "I currently work as a Helpdesk Tier 2 Support at Netspark and as a Coding Instructor at Codii. With a background in military service as an Infantry Fighter in the IDF Nahal Brigade, I've developed strong leadership and strategic thinking skills. I have extensive experience in cybersecurity, system administration, and network security, with a focus on penetration testing and ethical hacking. I also create educational content on YouTube, sharing cybersecurity tutorials and CTF walkthroughs to help others learn about security concepts.",
+    "I currently work as a Helpdesk Tier 2 Support at Netspark and as a Coding Instructor at Codii. With a background in military service as an Infantry Fighter in the IDF Nahal Brigade, I've developed strong leadership and strategic thinking skills. I have extensive experience in cybersecurity, system administration, and network security, with a focus on penetration testing and ethical hacking. I also create educational content on YouTube, sharing cybersecurity tutorials and CTF walkthroughs to help others learn about security concepts. Additionally, I manage my own cybersecurity Discord community where professionals and enthusiasts collaborate and share knowledge.",
   avatarUrl: "https://media.licdn.com/dms/image/v2/D4E03AQF6ELOMe8qwWA/profile-displayphoto-shrink_200_200/B4EZRfyoDFHAAY-/0/1736773895754?e=2147483647&v=beta&t=5ZCU2ZDihe0KJnXASUba_U6xAQ-3E6jpTu9f28lCdUA",
   skills: [
     "Linux",
@@ -35,6 +35,7 @@ export const DATA = {
     "Content Creation",
     "Technical Education",
     "CTF Challenges",
+    "Community Management",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -59,6 +60,12 @@ export const DATA = {
         name: "YouTube",
         url: "https://youtube.com/@S2K7",
         icon: Icons.youtube,
+        navbar: true,
+      },
+      Discord: {
+        name: "Discord Server",
+        url: "https://discord.gg/GHMYGZz5",
+        icon: Icons.discord,
         navbar: true,
       },
       TryHackMe: {
@@ -138,7 +145,7 @@ export const DATA = {
       school: "TryHackMe, HackTheBox, PortSwigger",
       href: "https://tryhackme.com/r/p/S2K7",
       degree: "Hands-On Cybersecurity Labs (+300 hours)",
-      logoUrl: "https://tryhackme-images.s3.amazonaws.com/user-avatars/b2ba8993f18937bb82ee2f3f60a32673.png",
+      logoUrl: "https://yt3.googleusercontent.com/2M3WiTvqDBIjd2AneqZ8CapyD9FL6NU9s2TIqiDliUujGPBhaTcHxFVRJQl8DLBjKL3T6NOJsg=s900-c-k-c0x00ffffff-no-rj",
       start: "2023",
       end: "Present",
     },
@@ -152,6 +159,31 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Cybersecurity Discord Community",
+      href: "https://discord.gg/GHMYGZz5",
+      dates: "2024 - Present",
+      active: true,
+      description:
+        "Founded and manage an active cybersecurity Discord server that brings together professionals, students, and enthusiasts. The community serves as a collaborative space for sharing knowledge, discussing security trends, solving CTF challenges together, and networking with like-minded individuals.",
+      technologies: [
+        "Discord Community Management",
+        "Cybersecurity Education",
+        "CTF Collaboration",
+        "Networking Events",
+        "Knowledge Sharing",
+        "Mentorship"
+      ],
+      links: [
+        {
+          type: "Discord",
+          href: "https://discord.gg/BhCawHjR4W",
+          icon: <Icons.discord className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
     {
       title: "Cybersecurity YouTube Channel",
       href: "https://youtube.com/@S2K7",
