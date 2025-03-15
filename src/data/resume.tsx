@@ -1,5 +1,4 @@
 import { Icons } from "@/components/icons";
-import { LogoDiscord } from '@geist/icons';
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
@@ -179,7 +178,7 @@ export const DATA = {
         {
           type: "Discord",
           href: "https://discord.gg/BhCawHjR4W",
-          icon: <Icons.logo-discord className="size-3" />,
+          icon: "",
         },
       ],
       image: "",
