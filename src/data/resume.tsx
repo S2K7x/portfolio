@@ -1,4 +1,5 @@
 import { Icons } from "@/components/icons";
+import { LogoDiscord } from '@geist/icons';
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
