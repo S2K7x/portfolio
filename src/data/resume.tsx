@@ -65,7 +65,7 @@ export const DATA = {
       Discord: {
         name: "Discord Server",
         url: "https://discord.gg/GHMYGZz5",
-        icon: "",
+        icon: "Icons.globe",
         navbar: true,
       },
       TryHackMe: {
@@ -178,7 +178,7 @@ export const DATA = {
         {
           type: "Discord",
           href: "https://discord.gg/BhCawHjR4W",
-          icon: "",
+          icon: "Icons.globe",
         },
       ],
       image: "",
