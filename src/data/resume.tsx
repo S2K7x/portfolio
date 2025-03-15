@@ -11,7 +11,7 @@ export const DATA = {
     "Cybersecurity Specialist, IT Support Professional & Content Creator. Passionate about security, problem-solving, and sharing knowledge through educational videos.",
   summary:
     "I currently work as a Helpdesk Tier 2 Support at Netspark and as a Coding Instructor at Codii. With a background in military service as an Infantry Fighter in the IDF Nahal Brigade, I've developed strong leadership and strategic thinking skills. I have extensive experience in cybersecurity, system administration, and network security, with a focus on penetration testing and ethical hacking. I also create educational content on YouTube, sharing cybersecurity tutorials and CTF walkthroughs to help others learn about security concepts.",
-  avatarUrl: "/me.png",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D4E03AQF6ELOMe8qwWA/profile-displayphoto-shrink_200_200/B4EZRfyoDFHAAY-/0/1736773895754?e=2147483647&v=beta&t=5ZCU2ZDihe0KJnXASUba_U6xAQ-3E6jpTu9f28lCdUA",
   skills: [
     "Linux",
     "macOS",
