@@ -8,9 +8,9 @@ export const DATA = {
   location: "Tel Aviv, Israel",
   locationLink: "https://www.google.com/maps/place/TelAviv",
   description:
-    "Cybersecurity Specialist & IT Support Professional. Passionate about security, problem-solving, and technical challenges.",
+    "Cybersecurity Specialist, IT Support Professional & Content Creator. Passionate about security, problem-solving, and sharing knowledge through educational videos.",
   summary:
-    "I currently work as a Helpdesk Tier 2 Support at Netspark and as a Coding Instructor at Codii. With a background in military service as an Infantry Fighter in the IDF Nahal Brigade, I've developed strong leadership and strategic thinking skills. I have extensive experience in cybersecurity, system administration, and network security, with a focus on penetration testing and ethical hacking.",
+    "I currently work as a Helpdesk Tier 2 Support at Netspark and as a Coding Instructor at Codii. With a background in military service as an Infantry Fighter in the IDF Nahal Brigade, I've developed strong leadership and strategic thinking skills. I have extensive experience in cybersecurity, system administration, and network security, with a focus on penetration testing and ethical hacking. I also create educational content on YouTube, sharing cybersecurity tutorials and CTF walkthroughs to help others learn about security concepts.",
   avatarUrl: "/me.png",
   skills: [
     "Linux",
@@ -32,6 +32,9 @@ export const DATA = {
     "Wireshark",
     "Snort",
     "ELK Stack",
+    "Content Creation",
+    "Technical Education",
+    "CTF Challenges",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -50,6 +53,12 @@ export const DATA = {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/shaï-krief-964087333",
         icon: Icons.linkedin,
+        navbar: true,
+      },
+      YouTube: {
+        name: "YouTube",
+        url: "https://youtube.com/@S2K7",
+        icon: Icons.youtube,
         navbar: true,
       },
       TryHackMe: {
@@ -73,7 +82,7 @@ export const DATA = {
       badges: [],
       location: "Israel",
       title: "Helpdesk Tier 2 Support",
-      logoUrl: "https://www.netspark.com/wp-content/uploads/2022/01/favicon.jpg",
+      logoUrl: "/company-logos/netspark.png",
       start: "2025",
       end: "Present",
       description:
@@ -85,7 +94,7 @@ export const DATA = {
       badges: [],
       location: "Israel",
       title: "Coding Instructor",
-      logoUrl: "https://media.licdn.com/dms/image/v2/C4D0BAQFyUAg7YlVJqA/company-logo_200_200/company-logo_200_200/0/1648658467841?e=2147483647&v=beta&t=hzVsXtjYyUk9py7AKmQY1LBu5WaROXxrtV8-cAZHaZU",
+      logoUrl: "/company-logos/codii.png",
       start: "2024",
       end: "Present",
       description:
@@ -97,7 +106,7 @@ export const DATA = {
       badges: [],
       location: "Israel",
       title: "Internal IT Support",
-      logoUrl: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSzSfTuDua30xI0WWSXeZS0RH5sdHOpEnMn1yNrFQtte3FUytqw",
+      logoUrl: "/company-logos/plateforme.png",
       start: "2020",
       end: "2024",
       description:
@@ -121,7 +130,7 @@ export const DATA = {
       school: "Kernelios",
       href: "#",
       degree: "Cybersecurity Course (+450 hours)",
-      logoUrl: "https://www.kernelios.com/wp-content/uploads/2018/07/Kernelios-Icon.png",
+      logoUrl: "/education-logos/kernelios.png",
       start: "2024",
       end: "2024",
     },
@@ -129,7 +138,7 @@ export const DATA = {
       school: "TryHackMe, HackTheBox, PortSwigger",
       href: "https://tryhackme.com/r/p/S2K7",
       degree: "Hands-On Cybersecurity Labs (+300 hours)",
-      logoUrl: "https://yt3.googleusercontent.com/2M3WiTvqDBIjd2AneqZ8CapyD9FL6NU9s2TIqiDliUujGPBhaTcHxFVRJQl8DLBjKL3T6NOJsg=s900-c-k-c0x00ffffff-no-rj",
+      logoUrl: "/education-logos/tryhackme.png",
       start: "2023",
       end: "Present",
     },
@@ -137,12 +146,39 @@ export const DATA = {
       school: "Ironi Daled Tel Aviv",
       href: "#",
       degree: "High School Diploma",
-      logoUrl: "https://media.licdn.com/dms/image/v2/D4D0BAQG6WUjaDaKYTA/company-logo_200_200/company-logo_200_200/0/1702800493181?e=2147483647&v=beta&t=a9NYBm_Xi9M6uHm1pRyOjUtcIy2jdzMAg7WBKBnLWb4",
+      logoUrl: "/education-logos/ironidaled.png",
       start: "2012",
       end: "2018",
     },
   ],
   projects: [
+    {
+      title: "Cybersecurity YouTube Channel",
+      href: "https://youtube.com/@S2K7",
+      dates: "2024 - Present",
+      active: true,
+      description:
+        "Create and publish educational videos about cybersecurity topics and Capture The Flag (CTF) walkthroughs. Explain complex security concepts in an accessible way to help beginners understand cybersecurity principles and techniques.",
+      technologies: [
+        "Web Application Security",
+        "Network Security",
+        "Penetration Testing",
+        "CTF Challenges",
+        "Linux",
+        "Windows",
+        "Video Production",
+        "Educational Content"
+      ],
+      links: [
+        {
+          type: "YouTube",
+          href: "https://youtube.com/@S2K7",
+          icon: <Icons.youtube className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
     {
       title: "Penetration Testing Portfolio",
       href: "https://tryhackme.com/r/p/S2K7",
