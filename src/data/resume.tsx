@@ -58,7 +58,7 @@ export const DATA = {
       },
       YouTube: {
         name: "YouTube",
-        url: "https://youtube.com/@S2K7",
+        url: "https://youtube.com/@shxikrf",
         icon: Icons.youtube,
         navbar: true,
       },
@@ -71,6 +71,18 @@ export const DATA = {
       TryHackMe: {
         name: "TryHackMe",
         url: "https://tryhackme.com/r/p/S2K7",
+        icon: Icons.globe,
+        navbar: true,
+      },
+      W3Schools: {
+        name: "W3Schools",
+        url: "https://www.w3profile.com/shxikrf",
+        icon: Icons.globe,
+        navbar: true,
+      },
+      Medium: {
+        name: "Medium",
+        url: "https://medium.com/@shaikrief2",
         icon: Icons.globe,
         navbar: true,
       },
@@ -186,7 +198,7 @@ export const DATA = {
     },
     {
       title: "Cybersecurity YouTube Channel",
-      href: "https://youtube.com/@S2K7",
+      href: "https://youtube.com/@shxikrf",
       dates: "2024 - Present",
       active: true,
       description:
@@ -204,8 +216,18 @@ export const DATA = {
       links: [
         {
           type: "YouTube",
-          href: "https://youtube.com/@S2K7",
+          href: "https://youtube.com/@shxikrf",
           icon: <Icons.youtube className="size-3" />,
+        },
+        {
+          type: "Medium",
+          href: "https://medium.com/@shaikrief2",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "W3Schools",
+          href: "https://www.w3profile.com/shxikrf",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
