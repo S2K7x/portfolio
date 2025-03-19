@@ -165,6 +165,24 @@ export default function Page() {
               </BlurFade>
             ))}
           </div>
+          
+          <BlurFade delay={BLUR_FADE_DELAY * 12 + DATA.projects.length * 0.05}>
+            <div className="text-center mt-6">
+              <div className="inline-block rounded-lg bg-foreground/10 text-foreground px-4 py-2">
+                <p className="text-lg font-medium">
+                  Read my technical articles on{" "}
+                  <Link
+                    href="https://medium.com/@shaikrief2"
+                    className="text-blue-500 hover:underline font-semibold"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    Medium
+                  </Link>
+                </p>
+              </div>
+            </div>
+          </BlurFade>
         </div>
       </section>
 
