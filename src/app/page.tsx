@@ -167,7 +167,7 @@ export default function Page() {
           </div>
           
           <BlurFade delay={BLUR_FADE_DELAY * 12 + DATA.projects.length * 0.05}>
-            <div className="text-center mt-6">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-4 mt-6">
               <div className="inline-block rounded-lg bg-foreground/10 text-foreground px-4 py-2">
                 <p className="text-lg font-medium">
                   Read my technical articles on{" "}
@@ -178,6 +178,20 @@ export default function Page() {
                     rel="noopener noreferrer"
                   >
                     Medium
+                  </Link>
+                </p>
+              </div>
+              
+              <div className="inline-block rounded-lg bg-foreground/10 text-foreground px-4 py-2">
+                <p className="text-lg font-medium">
+                  View my certificates on{" "}
+                  <Link
+                    href="https://www.w3profile.com/shxikrf"
+                    className="text-blue-500 hover:underline font-semibold"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    W3Schools
                   </Link>
                 </p>
               </div>
